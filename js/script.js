@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     // Simple mobile menu toggle
-    const menuToggle = document.createElement('button');
-    menuToggle.textContent = 'Menu';
-    menuToggle.classList.add('menu-toggle');
-    document.querySelector('nav').prepend(menuToggle);
+    // const menuToggle = document.createElement('button');
+    // menuToggle.textContent = 'Menu';
+    // menuToggle.classList.add('menu-toggle');
+    // document.querySelector('nav').prepend(menuToggle);
 
     menuToggle.addEventListener('click', () => {
         document.querySelector('nav ul').classList.toggle('show');
@@ -102,10 +102,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     // Add a scroll-to-top button
-    const scrollToTopButton = document.createElement('button');
-    scrollToTopButton.textContent = 'Top';
-    scrollToTopButton.classList.add('scroll-to-top');
-    document.body.appendChild(scrollToTopButton);
+    // const scrollToTopButton = document.createElement('button');
+    // scrollToTopButton.textContent = 'Top';
+    // scrollToTopButton.classList.add('scroll-to-top');
+    // document.body.appendChild(scrollToTopButton);
 
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 100) {
